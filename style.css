@@ -90,6 +90,15 @@
     transform: translateY(-15px);
   }
 }
+/* media query */
+@media screen and (max-width:570px) {
+  .hero-section .hero-content h2 {
+    font-size: 50px;
+  }
+  .bts-icons{
+   padding-bottom: 40px;
+  }
+}
 /* about section */
 .about-section {
   padding-bottom: 40px;
@@ -103,6 +112,15 @@
 }
 .about-section .about-content p {
   word-spacing: 2px;
+  text-overflow: hidden;
+  
+}
+/* media query */
+@media screen and (max-width:570px) {
+  .about-section .about-content h2 {
+    font-size: 40px;
+  }
+  
 }
 /* tokenomics */
 .tokenomics-section {
