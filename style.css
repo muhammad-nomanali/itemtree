@@ -45,6 +45,7 @@
 .hero-section .hero-content h2 {
   font-size: 80px;
 }
+
 .hero-img {
   background-color: #03d663;
 }
@@ -106,6 +107,7 @@
 .about-section .about-content p {
   word-spacing: 2px;
   text-overflow: hidden;
+  font-size: 24px;
   
 }
 /* media query */
