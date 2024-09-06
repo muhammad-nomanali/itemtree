@@ -101,9 +101,24 @@
 }
 .about-section .about-content h2 {
   font-size: 60px;
-  text-transform: capitalize;
+
   color: #03d663;
 }
+.about-section .about-content button{
+  padding: 8px 20px;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 1x rgba(194, 183, 183, 0.514),
+;
+}
+.about-section .about-content button a{
+font-size: 26px;
+}
+.about-section .about-content button a:hover{
+ color: white;
+  }
 .about-section .about-content p {
   word-spacing: 2px;
   text-overflow: hidden;
