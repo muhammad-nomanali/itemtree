@@ -171,6 +171,11 @@ font-size: 26px;
 .input2 h4 {
   margin: 0;
 }
+@media screen and (max-width:600px) {
+  .input-One p {
+ font-size: 12px;
+  }
+}
 /* roadmap section */
 
 .roadmap-section {
